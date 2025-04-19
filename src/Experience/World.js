@@ -41,6 +41,9 @@ class World {
     this.renderer.setSize(this.sizes.width, this.sizes.height);
     this.renderer.setPixelRatio(this.sizes.pixelRatio);
 
+    const gridHelper = new THREE.GridHelper(100,100);
+    this.scene.add(gridHelper);
+
 
     this.cubeMesh = new Cube();
     this.scene.add(this.cubeMesh.mesh);
