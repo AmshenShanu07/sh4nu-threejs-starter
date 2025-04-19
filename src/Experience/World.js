@@ -43,7 +43,7 @@ class World {
 
 
     this.cubeMesh = new Cube();
-    this.scene.add(this.cubeMesh.init());
+    this.scene.add(this.cubeMesh.mesh);
  
   }
 
